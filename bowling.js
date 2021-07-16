@@ -114,7 +114,6 @@ export class Bowling {
     if (error) {
       throw error;
     }
-    const initial
 
     if ((this.frames[9]?.type !== 'X' && this.frames[9]?.type !== '/') && this.frames.length > 10) {
       throw 'Cannot roll after game is over';
